@@ -7,9 +7,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+    <Router>
+    </Router>
+  </Provider>,
   document.getElementById('root')
 );
 
